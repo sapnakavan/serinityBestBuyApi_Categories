@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.bestbuyapi.Categoriesinfo.CategoriesCURDTestWithSteps" skipped="0" tests="4" time="28.19" timestamp="2022-10-04T15:23:53.675+01:00[Europe/London]"><testcase classname="com.bestbuyapi.Categoriesinfo.CategoriesCURDTestWithSteps" name="This will create a new categories"/><testcase classname="com.bestbuyapi.Categoriesinfo.CategoriesCURDTestWithSteps" name="verify if categories was created"/><testcase classname="com.bestbuyapi.Categoriesinfo.CategoriesCURDTestWithSteps" name="update categories with name and id"/><testcase classname="com.bestbuyapi.Categoriesinfo.CategoriesCURDTestWithSteps" name="Delete the categories and verify if the categories is deleted"><error message="parameterValue cannot be null" type="java.lang.IllegalArgumentException">parameterValue cannot be null</error><system-err>parameterValue cannot be null&#13;
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+io.restassured.internal.RequestSpecificationImpl.pathParameter(RequestSpecificationImpl.groovy:560)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.pathParam(RequestSpecificationImpl.groovy:578)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationParametersConfigurations.pathParam(RequestSpecificationParametersConfigurations.java:188)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.pathParam(RequestSpecificationDecorated.java:27)&#13;
+com.bestbuyapi.categoriesinfo.CategoriesSteps.deletecategories(CategoriesSteps.java:56)&#13;
+com.bestbuyapi.Categoriesinfo.CategoriesCURDTestWithSteps.test004(CategoriesCURDTestWithSteps.java:57)&#13;
+</system-err></testcase></testsuite>
